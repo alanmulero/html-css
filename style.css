@@ -24,12 +24,15 @@ body{
 	background-repeat: no-repeat;
 	background-size: contain; /* Ocupa todo espaço do container, no caso a section */
 
+
 }
 
 .container{
 	height: 100vh;
 	display: grid;
 	grid-template-columns: 50% 50%;
+	align-items: center; /* centralizando elementos dentro de uma section */
+	text-align: center;
 }
 
 /* Estilisando o botão */
@@ -40,9 +43,10 @@ body{
 	color: var(--branco-principal);
 	text-decoration: none;
 	display: block;
+	margin-bottom: 1em;
 }
 
-.botao_secundario{
+.botao__secundario{
 	background-color: transparent;
 	border: 2px solid var(--branco-principal);
 }
@@ -54,4 +58,31 @@ body{
 .container__titulo{
 	font-size:28px ;
 	font-weight: 700;
+}
+
+.container__imagem{
+	margin: 1em 0 2em 0;
+}
+.container__caixa{
+	margin: 0 6em;
+}
+
+.secundario__imagem{
+	width: 80%;
+}
+
+.secundario{
+	align-items: center;
+	margin: 0 10em;
+	text-align: left;
+}
+.descricao__titulo{
+	font-weight: 700;
+	font-size: 48px;
+	color: var(--branco-principal);
+	margin-bottom: 0.1em;
+}
+
+.descricao__texto{
+	color: var(--cinza-secundario);
 }
