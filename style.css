@@ -144,6 +144,7 @@ footer{
 	justify-content: center;
 	
 	
+	
 }
 
 .lista__link{
@@ -169,4 +170,8 @@ footer{
 
 .rodape__texto2{
 	margin-bottom: 5em;
+}
+
+.aparelho{
+	list-style: none;
 }
